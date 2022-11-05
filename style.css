@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+/* using child selector */
+header > h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* using descendant selectors*/
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #00ccff;
+}
+figcaption {
+  font-size: small;
+  text-align: center;
+  text-decoration: none;
+}
+#featured-property > p {
+  width: 800px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+div {
+  float: left;
+  color: black;
+  text-align: center;
+  width: 25%;
+  background-color: aqua;
+}
